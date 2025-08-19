@@ -1,83 +1,186 @@
-Task-1
-# 🍔 Food-Related Insights (Data Visualization with Matplotlib)
+🍔 Task 1 – Food-Related Insights (Data Visualization with Matplotlib)
 
-This project provides a set of **visualizations about fast food chains, calorie availability, and daily consumption habits** using Python and Matplotlib.  
-The code demonstrates how to create multiple charts in a single figure using a 2x2 grid layout.
+This project provides visual insights into fast food chains, calorie availability, and daily consumption habits using Python and Matplotlib.
 
----
+🔎 Project Highlights
 
-## 📊 Visualizations Included
+Visualized global fast-food chains by outlet count.
 
-1. **Global Fast-Food Chains (by Outlet Count)**  
-   Shows the number of worldwide outlets for McDonald's, Starbucks, Subway, and KFC (real approximations).  
+Showcased a survey of favorite fast-food chains.
 
-2. **Favorite Fast-Food Chains (Survey Example)**  
-   A hypothetical survey showcasing people’s favorite fast-food brands.  
+Compared daily calorie availability across regions.
 
-3. **Daily Calorie Availability by Region**  
-   Compares high-income countries with low-income countries (e.g., Nigeria).  
+Plotted a histogram of personal calorie consumption.
 
-4. **Personal Daily Calorie Consumption (Histogram)**  
-   Displays a sample distribution of individual daily calorie intake.  
+📊 Visualizations
 
----
+📈 Fast-food outlet counts
 
-## 🖼️ Example Output
+❤️ Favorite fast-food brand survey
 
-The script generates a **2x2 grid of charts** like this:
+🌍 Daily calorie availability by region
 
-- Top-left: Fast-food outlet counts  
-- Top-right: Favorite fast-food survey results  
-- Bottom-left: Daily calorie availability by region  
-- Bottom-right: Histogram of personal calorie consumption  
+🍽️ Daily calorie consumption distribution
 
----
+(Plotted in a 2x2 grid layout.)
 
-## 🚀 Getting Started
+🛠️ Tech Stack
 
-### Prerequisites
-- Python 3.x
-- Matplotlib
+Python 🐍
 
-Install Matplotlib if not already installed:
+Matplotlib
+
+🚀 Getting Started
 ```bash
 pip install matplotlib
 ```
-Task - 2
 
-# 📊 Titanic Survival Prediction – Data Visualization Project
 
-A hands-on project exploring the **Titanic dataset** using **Python, Pandas, Seaborn, and Matplotlib**.  
-The goal was to clean, analyze, and visualize the data to uncover survival patterns and better understand the factors that influenced passenger survival.
+📊 Task 2 – Titanic Survival Prediction (Data Visualization Project)
 
----
+A hands-on project exploring the Titanic dataset with Pandas, Seaborn, and Matplotlib to uncover survival patterns and factors that influenced passenger survival.
 
-## 🔎 Project Highlights
-- ✅ Cleaned and pre-processed missing data efficiently.  
-- 📈 Visualized survival trends based on **gender, passenger class, and age**.  
-- 🌡️ Built an interactive **correlation heatmap** to identify key influencing features.  
-- 🎯 Gained insights into how **social & economic factors** impacted survival chances.  
+🔎 Project Highlights
 
----
+✅ Cleaned and pre-processed missing data.
 
-## 📊 Visualizations
-Some of the insights revealed through this project:
-- Survival rate by **gender** (women had a much higher chance).  
-- Survival rate by **class** (1st class passengers had higher survival).  
-- **Age distribution** of survivors vs non-survivors.  
-- Correlation heatmap to identify important features.  
+📊 Visualized survival trends by gender, class, and age.
 
----
+🌡️ Built a correlation heatmap.
 
-## 🚀 Getting Started
+🎯 Explored social & economic factors affecting survival.
 
-### Prerequisites
-- Python 3.x  
-- Pandas  
-- Seaborn  
-- Matplotlib  
+📊 Visualizations
 
-Install dependencies:
+👩‍🦰 Survival by gender
+
+🛳️ Survival by passenger class
+
+🎂 Age distribution of survivors
+
+🔥 Correlation heatmap
+
+🛠️ Tech Stack
+
+Python 🐍
+
+Pandas
+
+Seaborn
+
+Matplotlib
+
+🚀 Getting Started
 ```bash
 pip install pandas seaborn matplotlib
+```
+
+
+🏦 Task 3 – Bank Marketing Dataset (EDA & Random Forest Classification)
+
+This project explores the Bank Marketing Dataset (UCI Repository) and builds a Random Forest Classifier to predict term deposit subscriptions.
+
+🔎 Project Highlights
+
+📂 Downloaded dataset from UCI.
+
+🧹 Cleaned and label-encoded categorical variables.
+
+📊 Conducted EDA with 8 visualizations.
+
+🤖 Trained and evaluated a Random Forest Classifier.
+
+📊 Visualizations
+
+🎯 Target variable distribution
+
+👶 Age distribution of clients
+
+👨‍👩‍👧 Subscription rate by marital status
+
+📚 Call duration per education level
+
+🔥 Top 10 feature importances
+
+📉 Confusion matrix heatmap
+
+(Organized in a 2x4 grid layout.)
+
+🛠️ Tech Stack
+
+Python 🐍
+
+Pandas, NumPy
+
+Seaborn, Matplotlib
+
+scikit-learn
+
+Requests
+
+🚀 Getting Started
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn requests
+```
+
+
+🚗 Task 4 – US Accidents Dataset (EDA & Severity Prediction)
+
+This project analyzes the US Accidents dataset (Kaggle) through EDA, visualization, and a Random Forest model to predict accident severity.
+
+🔎 Project Highlights
+
+📂 Downloaded dataset via Kaggle Hub.
+
+🧹 Preprocessed data (datetime conversion, feature extraction, label encoding, missing value handling).
+
+📊 Conducted EDA with multiple visual insights:
+
+Accident counts by severity
+
+Top 10 weather conditions
+
+Accidents by day of week
+
+Accidents by hour of day
+
+🔥 Built correlation heatmap of numeric features.
+
+🤖 Developed a Random Forest Classifier to predict severity.
+
+📊 Visualizations
+
+🚦 Severity count plots
+
+🌦️ Weather condition impacts
+
+📅 Weekly accident trends
+
+⏰ Hourly accident trends
+
+🔥 Correlation heatmap
+
+📉 Confusion matrix
+
+🤖 Model Performance
+
+Trained Random Forest Classifier with train-test split.
+
+Evaluated using accuracy, classification report, and confusion matrix.
+
+🛠️ Tech Stack
+
+Python 🐍
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+Kaggle Hub API
+
+🚀 Getting Started
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn kagglehub
 ```
